@@ -4,24 +4,24 @@
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandJB2     |13.19     |
-|2      |GROUP_RandJB1     |8.44     |
+|1      |GROUP_RandJB1     |7.89     |
+|2      |GROUP_RandJB2     |5.83     |
 
 
 **Sample Efficiency Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandJB1     |8.64     |
-|2      |GROUP_RandJB2     |6.73     |
+|1      |GROUP_RandJB2     |8.97     |
+|2      |GROUP_RandJB1     |5.58     |
 
 
 **Combined Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandJB2     |9.96     |
-|2      |GROUP_RandJB1     |8.54     |
+|1      |GROUP_RandJB2     |7.40     |
+|2      |GROUP_RandJB1     |6.74     |
 
 
 # Mujoco Leaderboard
@@ -30,23 +30,23 @@
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandMJ1     |18.28     |
-|2      |GROUP_RandMJ2     |16.16     |
+|1      |GROUP_RandMJ2     |18.83     |
+|2      |GROUP_RandMJ1     |17.77     |
 
 
 **Sample Efficiency Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandMJ1     |18.53     |
-|2      |GROUP_RandMJ2     |18.00     |
+|1      |GROUP_RandMJ1     |18.46     |
+|2      |GROUP_RandMJ2     |18.14     |
 
 
 **Combined Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_RandMJ1     |18.41     |
-|2      |GROUP_RandMJ2     |17.08     |
+|1      |GROUP_RandMJ2     |18.48     |
+|2      |GROUP_RandMJ1     |18.11     |
 
 
