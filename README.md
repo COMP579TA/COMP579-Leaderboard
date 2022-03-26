@@ -31,8 +31,8 @@
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_DEMO     |73.25     |
+|1      |GROUP_DEMO     |49.37     |
 |2      |GROUP_BaselineMJ     |25.00     |
-|3      |GROUP_RandMJ1     |1.49     |
+|3      |GROUP_RandMJ1     |1.47     |
 
 
