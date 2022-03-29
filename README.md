@@ -13,7 +13,7 @@
 |Rank      |Group     |Score     |
 |----------|----------|----------|
 |1      |GROUP_BaselineJB     |20.00     |
-|2      |GROUP_RandJB1     |1.97     |
+|2      |GROUP_RandJB1     |1.86     |
 
 
 # Mujoco Leaderboard
