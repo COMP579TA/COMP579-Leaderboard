@@ -4,16 +4,16 @@
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_BaselineJB     |50.00     |
-|2      |GROUP_RandJB1     |4.34     |
+|1      |GROUP_BaselineJB     |180.00     |
+|2      |GROUP_RandJB1     |12.00     |
 
 
 **Sample Efficiency Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_BaselineJB     |20.00     |
-|2      |GROUP_RandJB1     |1.86     |
+|1      |GROUP_BaselineJB     |50.00     |
+|2      |GROUP_RandJB1     |12.00     |
 
 
 # Mujoco Leaderboard
