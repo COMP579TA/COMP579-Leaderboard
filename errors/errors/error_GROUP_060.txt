@@ -1,7 +1,0 @@
-
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 169, in <module>
-    env = get_environment(env_type)
-  File "evaluate_agents.py", line 43, in get_environment
-    raise Exception("ERROR: Please define your env_type to be either 'jellybean' or 'mujoco'!")
-Exception: ERROR: Please define your env_type to be either 'jellybean' or 'mujoco'!
