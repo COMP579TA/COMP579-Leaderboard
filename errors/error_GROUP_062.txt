@@ -1,7 +1,5 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 192, in <module>
-    agent = agent_module.Agent(env_specs)
-  File "XXX/COMP579_project/GROUPS/GROUP_062/agent.py", line 20, in __init__
-    self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-NameError: name 'torch' is not defined
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+TypeError: load_weights() got an unexpected keyword argument 'root_path'
