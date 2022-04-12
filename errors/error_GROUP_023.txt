@@ -11,5 +11,5 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
   File "XXX/COMP579_project/GROUPS/GROUP_023/agent.py", line 3, in <module>
-    from GROUP_023.buffer import ReplayBuffer
-ModuleNotFoundError: No module named 'GROUP_023'
+    from buffer import ReplayBuffer
+ModuleNotFoundError: No module named 'buffer'
