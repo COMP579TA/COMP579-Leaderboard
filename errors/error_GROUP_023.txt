@@ -1,5 +1,15 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 163, in <module>
-    raise Exception('There is no agent.py or env_info.txt!')
-Exception: There is no agent.py or env_info.txt!
+  File "evaluate_agents.py", line 171, in <module>
+    agent_module = importlib.import_module('GROUPS.'+args.group+'.agent')
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "XXX/COMP579_project/GROUPS/GROUP_023/agent.py", line 3, in <module>
+    from GROUP_023.buffer import ReplayBuffer
+ModuleNotFoundError: No module named 'GROUP_023'

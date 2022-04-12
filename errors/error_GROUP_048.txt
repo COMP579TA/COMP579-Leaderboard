@@ -1,1 +1,7 @@
 
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 192, in <module>
+    agent = agent_module.Agent(env_specs)
+  File "XXX/COMP579_project/GROUPS/GROUP_048/agent.py", line 122, in __init__
+    tf.enable_eager_execution()
+AttributeError: module 'tensorflow' has no attribute 'enable_eager_execution'
