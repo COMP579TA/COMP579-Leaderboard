@@ -1,11 +1,7 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 194, in <module>
-    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
-  File "evaluate_agents.py", line 65, in evaluate_perf
-    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
-  File "evaluate_agents.py", line 28, in evaluate_agent
-    action = agent.act(curr_obs, mode='eval')
-  File "XXX/COMP579_project/GROUPS/GROUP_012/agent.py", line 62, in act
-    _ , next_action =self.model(**inpt)
-TypeError: '_IncompatibleKeys' object is not callable
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_012/agent.py", line 47, in load_weights
+    self.model.load_state_dict(torch.load(f'{root_path}/{location}',map_location=torch.device(self.devices)))
+AttributeError: 'Agent' object has no attribute 'devices'
