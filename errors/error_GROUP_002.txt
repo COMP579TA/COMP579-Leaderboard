@@ -4,6 +4,6 @@ Traceback (most recent call last):
     evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
   File "evaluate_agents.py", line 103, in evaluate_sample_eff
     agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 32, in update
+  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 81, in update
     self.positionHistory = self.positionHistory.append(self.position)
 AttributeError: 'NoneType' object has no attribute 'append'
