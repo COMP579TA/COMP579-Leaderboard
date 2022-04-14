@@ -1,7 +1,1 @@
 
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_062/agent.py", line 71, in load_weights
-    torch.load(root_path+'actor_sac.pt')).to(device)
-TypeError: load_state_dict() missing 1 required positional argument: 'state_dict'

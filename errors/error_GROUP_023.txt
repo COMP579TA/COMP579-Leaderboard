@@ -1,7 +1,1 @@
 
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 192, in <module>
-    agent = agent_module.Agent(env_specs)
-  File "XXX/COMP579_project/GROUPS/GROUP_023/agent.py", line 183, in __init__
-    self.input_dims = env_specs.get('observation_space').shape
-AttributeError: 'NoneType' object has no attribute 'get'

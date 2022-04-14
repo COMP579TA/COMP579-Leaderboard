@@ -1,13 +1,11 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 213, in <module>
-    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
-  File "evaluate_agents.py", line 103, in evaluate_sample_eff
-    agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 134, in update
-    advantage_data=advantage_data,
-  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 168, in train_actor
-    log_proba = distribution_of_obs.log_prob(action_data).sum(axis=-1)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/distributions/normal.py", line 77, in log_prob
-    return -((value - self.loc) ** 2) / (2 * var) - log_scale - math.log(math.sqrt(2 * math.pi))
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 112, in load_weights
+    self.actor_model.load_state_dict(pretrained_model["actor"])
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Actor:
+	Missing key(s) in state_dict: "network.0.weight", "network.0.bias", "network.2.weight", "network.2.bias", "network.4.weight", "network.4.bias". 
+	Unexpected key(s) in state_dict: "fc1.weight", "fc1.bias", "fc2.weight", "fc2.bias", "fc3.weight", "fc3.bias". 
