@@ -1,14 +1,11 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 112, in load_weights
-    self.actor_model.load_state_dict(pretrained_model["actor"])
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
-    self.__class__.__name__, "\n\t".join(error_msgs)))
-RuntimeError: Error(s) in loading state_dict for Actor:
-	size mismatch for network.0.weight: copying a param with shape torch.Size([400, 11]) from checkpoint, the shape in current model is torch.Size([64, 11]).
-	size mismatch for network.0.bias: copying a param with shape torch.Size([400]) from checkpoint, the shape in current model is torch.Size([64]).
-	size mismatch for network.2.weight: copying a param with shape torch.Size([300, 400]) from checkpoint, the shape in current model is torch.Size([64, 64]).
-	size mismatch for network.2.bias: copying a param with shape torch.Size([300]) from checkpoint, the shape in current model is torch.Size([64]).
-	size mismatch for network.4.weight: copying a param with shape torch.Size([3, 300]) from checkpoint, the shape in current model is torch.Size([3, 64]).
+  File "evaluate_agents.py", line 213, in <module>
+    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
+  File "evaluate_agents.py", line 103, in evaluate_sample_eff
+    agent.update(curr_obs, action, reward, next_obs, done, timestep)
+  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 190, in update
+    obs_data = self.buffer.get_obs_data(start=start, end=end)
+  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 499, in get_obs_data
+    return torch.stack(self.obs_buffer[-(end - start) :]).float()
+RuntimeError: stack expects a non-empty TensorList
