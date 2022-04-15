@@ -1,1 +1,13 @@
 
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_056/agent.py", line 76, in load_weights
+    self.policy.load_state_dict(torch.load(actor_path))
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './GROUPS/GROUP_056/actor_hopper'

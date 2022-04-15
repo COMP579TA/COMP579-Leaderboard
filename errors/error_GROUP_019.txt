@@ -1,5 +1,17 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 163, in <module>
-    raise Exception('There is no agent.py or env_info.txt!')
-Exception: There is no agent.py or env_info.txt!
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 173, in load_weights
+    self.load_models()
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 202, in load_models
+    self.actor.load_checkpoint()
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 87, in load_checkpoint
+    self.load_state_dict(T.load(self.checkpoint_file))
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'tmp/td3/actor_td3.pth'

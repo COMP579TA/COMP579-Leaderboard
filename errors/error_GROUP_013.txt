@@ -7,5 +7,8 @@ Traceback (most recent call last):
   File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
     self.__class__.__name__, "\n\t".join(error_msgs)))
 RuntimeError: Error(s) in loading state_dict for Actor:
-	Missing key(s) in state_dict: "network.0.weight", "network.0.bias", "network.2.weight", "network.2.bias", "network.4.weight", "network.4.bias". 
-	Unexpected key(s) in state_dict: "fc1.weight", "fc1.bias", "fc2.weight", "fc2.bias", "fc3.weight", "fc3.bias". 
+	size mismatch for network.0.weight: copying a param with shape torch.Size([400, 11]) from checkpoint, the shape in current model is torch.Size([64, 11]).
+	size mismatch for network.0.bias: copying a param with shape torch.Size([400]) from checkpoint, the shape in current model is torch.Size([64]).
+	size mismatch for network.2.weight: copying a param with shape torch.Size([300, 400]) from checkpoint, the shape in current model is torch.Size([64, 64]).
+	size mismatch for network.2.bias: copying a param with shape torch.Size([300]) from checkpoint, the shape in current model is torch.Size([64]).
+	size mismatch for network.4.weight: copying a param with shape torch.Size([3, 300]) from checkpoint, the shape in current model is torch.Size([3, 64]).
