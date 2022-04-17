@@ -4,6 +4,6 @@ Traceback (most recent call last):
     agent.load_weights(root_path=path) 
   File "XXX/COMP579_project/GROUPS/GROUP_050/agent.py", line 32, in load_weights
     self.algorithm.load(self.weights_path)
-  File "XXX/COMP579_project/GROUPS/GROUP_050/algorithms/vpg.py", line 125, in load
+  File "XXX/COMP579_project/GROUPS/GROUP_050/algorithms/vpg.py", line 123, in load
     weights = torch.load(self.path)
 AttributeError: 'VPG' object has no attribute 'path'
