@@ -1,4 +1,4 @@
-This leaderboard was created with student repos pulled at 2022-04-16 23:21:47.302750 (Montreal time).
+This leaderboard was created with student repos pulled at 2022-04-17 05:25:22.237439 (Montreal time).
 
 
 # JellyBean Leaderboard
@@ -12,8 +12,8 @@ This leaderboard was created with student repos pulled at 2022-04-16 23:21:47.30
 |3      |GROUP_055     |433.61     |
 |4      |GROUP_BaselineJB     |50.00     |
 |5      |GROUP_012     |26.30     |
-|6      |GROUP_025     |14.75     |
-|7      |GROUP_069     |14.75     |
+|6      |GROUP_069     |14.75     |
+|7      |GROUP_025     |14.75     |
 |8      |GROUP_008     |14.75     |
 |9      |GROUP_RandJB1     |14.75     |
 
@@ -22,15 +22,15 @@ This leaderboard was created with student repos pulled at 2022-04-16 23:21:47.30
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_005     |265.18     |
+|1      |GROUP_005     |259.67     |
 |2      |GROUP_055     |141.48     |
 |3      |GROUP_011     |53.62     |
 |4      |GROUP_BaselineJB     |20.00     |
-|5      |GROUP_012     |9.98     |
-|6      |GROUP_025     |4.42     |
-|7      |GROUP_069     |4.42     |
+|5      |GROUP_012     |10.91     |
+|6      |GROUP_RandJB1     |4.65     |
+|7      |GROUP_069     |4.65     |
 |8      |GROUP_008     |4.42     |
-|9      |GROUP_RandJB1     |4.42     |
+|9      |GROUP_025     |4.42     |
 
 
 # Mujoco Leaderboard
@@ -50,15 +50,16 @@ This leaderboard was created with student repos pulled at 2022-04-16 23:21:47.30
 |9      |GROUP_DEMO     |1299.40     |
 |10      |GROUP_BaselineMJ     |1000.00     |
 |11      |GROUP_022     |525.55     |
-|12      |GROUP_067     |17.32     |
-|13      |GROUP_RandMJ1     |17.32     |
-|14      |GROUP_021     |17.32     |
-|15      |GROUP_042     |17.32     |
-|16      |GROUP_061     |17.32     |
-|17      |GROUP_053     |17.32     |
-|18      |GROUP_047     |17.32     |
-|19      |GROUP_057     |17.32     |
-|20      |GROUP_044     |17.32     |
+|12      |GROUP_057     |17.32     |
+|13      |GROUP_044     |17.32     |
+|14      |GROUP_050     |17.32     |
+|15      |GROUP_047     |17.32     |
+|16      |GROUP_053     |17.32     |
+|17      |GROUP_061     |17.32     |
+|18      |GROUP_042     |17.32     |
+|19      |GROUP_021     |17.32     |
+|20      |GROUP_RandMJ1     |17.32     |
+|21      |GROUP_067     |17.32     |
 
 
 **Sample Efficiency Leaderboard**
@@ -66,24 +67,25 @@ This leaderboard was created with student repos pulled at 2022-04-16 23:21:47.30
 |Rank      |Group     |Score     |
 |----------|----------|----------|
 |1      |GROUP_030     |408.53     |
-|2      |GROUP_062     |350.48     |
-|3      |GROUP_023     |308.37     |
-|4      |GROUP_004     |303.68     |
-|5      |GROUP_051     |268.96     |
-|6      |GROUP_009     |149.82     |
-|7      |GROUP_013     |105.59     |
-|8      |GROUP_022     |101.11     |
-|9      |GROUP_DEMO     |75.45     |
-|10      |GROUP_BaselineMJ     |25.00     |
-|11      |GROUP_054     |4.51     |
-|12      |GROUP_067     |3.81     |
-|13      |GROUP_042     |3.81     |
-|14      |GROUP_061     |3.81     |
-|15      |GROUP_053     |3.77     |
-|16      |GROUP_044     |3.77     |
-|17      |GROUP_RandMJ1     |3.71     |
-|18      |GROUP_021     |3.71     |
-|19      |GROUP_047     |3.71     |
-|20      |GROUP_057     |3.71     |
+|2      |GROUP_062     |406.11     |
+|3      |GROUP_004     |303.68     |
+|4      |GROUP_023     |292.95     |
+|5      |GROUP_050     |288.93     |
+|6      |GROUP_051     |265.75     |
+|7      |GROUP_009     |155.94     |
+|8      |GROUP_013     |105.59     |
+|9      |GROUP_022     |93.93     |
+|10      |GROUP_DEMO     |75.45     |
+|11      |GROUP_BaselineMJ     |25.00     |
+|12      |GROUP_054     |4.51     |
+|13      |GROUP_044     |3.81     |
+|14      |GROUP_053     |3.81     |
+|15      |GROUP_067     |3.81     |
+|16      |GROUP_057     |3.77     |
+|17      |GROUP_047     |3.71     |
+|18      |GROUP_061     |3.71     |
+|19      |GROUP_042     |3.71     |
+|20      |GROUP_021     |3.71     |
+|21      |GROUP_RandMJ1     |3.71     |
 
 
