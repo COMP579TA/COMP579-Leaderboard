@@ -1,11 +1,1 @@
 
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 213, in <module>
-    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
-  File "evaluate_agents.py", line 103, in evaluate_sample_eff
-    agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 193, in update
-    rewards=reward_data, start=start, end=end
-  File "XXX/COMP579_project/GROUPS/GROUP_013/agent.py", line 417, in compute_and_store_return
-    ), f"The length of the rewards tensor ({len(rewards)}) does not match end - start = {end - start}"
-AssertionError: The length of the rewards tensor (0) does not match end - start = -99807
