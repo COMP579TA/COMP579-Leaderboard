@@ -1,10 +1,1 @@
 
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_011/agent.py", line 99, in load_weights
-    self.model.load_state_dict(torch.load(full_path))
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
-    self.__class__.__name__, "\n\t".join(error_msgs)))
-RuntimeError: Error(s) in loading state_dict for DQN:
-	size mismatch for fc2.weight: copying a param with shape torch.Size([4, 32]) from checkpoint, the shape in current model is torch.Size([4, 35]).
