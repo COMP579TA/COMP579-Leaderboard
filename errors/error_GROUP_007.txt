@@ -1,15 +1,17 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 171, in <module>
-    agent_module = importlib.import_module('GROUPS.'+args.group+'.agent')
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "XXX/COMP579_project/GROUPS/GROUP_007/agent.py", line 23, in <module>
-    from GROUP_007.policy_random import Policy_Random
-ModuleNotFoundError: No module named 'GROUP_007'
+  File "evaluate_agents.py", line 194, in <module>
+    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
+  File "evaluate_agents.py", line 65, in evaluate_perf
+    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
+  File "evaluate_agents.py", line 28, in evaluate_agent
+    action = agent.act(curr_obs, mode='eval')
+  File "XXX/COMP579_project/GROUPS/GROUP_007/agent.py", line 724, in act
+    action = dist.sample()
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/distributions/distribution.py", line 144, in sample
+    return self.rsample(sample_shape)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/distributions/multivariate_normal.py", line 202, in rsample
+    return self.loc + _batch_mv(self._unbroadcasted_scale_tril, eps)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/distributions/multivariate_normal.py", line 20, in _batch_mv
+    return torch.matmul(bmat, bvec.unsqueeze(-1)).squeeze(-1)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument mat2 in method wrapper_mm)
