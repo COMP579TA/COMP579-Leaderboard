@@ -1,9 +1,1 @@
 
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 173, in load_weights
-    self.load_models(root_path)
-  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 204, in load_models
-    self.critic_1.load_checkpoint(root_path)
-TypeError: load_checkpoint() takes 1 positional argument but 2 were given
