@@ -11,5 +11,5 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
   File "XXX/COMP579_project/GROUPS/GROUP_067/agent.py", line 4, in <module>
-    from neural_nets import Actor, Critic
-ModuleNotFoundError: No module named 'neural_nets'
+    from GROUP_067.neural_nets import Actor, Critic
+ModuleNotFoundError: No module named 'GROUP_067'
