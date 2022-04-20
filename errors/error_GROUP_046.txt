@@ -1,5 +1,7 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 163, in <module>
-    raise Exception('There is no agent.py or env_info.txt!')
-Exception: There is no agent.py or env_info.txt!
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 51, in load_weights
+    self.model.load_state_dict(torch.load(f'{root_path}/weights.pth', map_location=torch.device(self.device)))
+AttributeError: 'Agent' object has no attribute 'model'
