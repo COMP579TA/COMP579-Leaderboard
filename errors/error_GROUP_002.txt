@@ -1,9 +1,23 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 213, in <module>
-    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
-  File "evaluate_agents.py", line 103, in evaluate_sample_eff
-    agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 81, in update
-    self.positionHistory = self.positionHistory.append(self.position)
-AttributeError: 'NoneType' object has no attribute 'append'
+  File "evaluate_agents.py", line 194, in <module>
+    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
+  File "evaluate_agents.py", line 65, in evaluate_perf
+    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
+  File "evaluate_agents.py", line 28, in evaluate_agent
+    action = agent.act(curr_obs, mode='eval')
+  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 54, in act
+    action_values = self.net(self.state, model="online")
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 172, in forward
+    return self.online(input)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
+    input = module(input)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+TypeError: linear(): argument 'input' (position 1) must be Tensor, not numpy.ndarray

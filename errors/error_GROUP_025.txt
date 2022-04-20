@@ -1,1 +1,17 @@
+2022-04-20 01:17:20.779385: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 194, in <module>
+    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
+  File "evaluate_agents.py", line 65, in evaluate_perf
+    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
+  File "evaluate_agents.py", line 28, in evaluate_agent
+    action = agent.act(curr_obs, mode='eval')
+  File "XXX/COMP579_project/GROUPS/GROUP_025/agent.py", line 109, in act
+    action_probs = self.model(state_tensor, training=False)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/keras/engine/input_spec.py", line 263, in assert_input_compatibility
+    raise ValueError(f'Input {input_index} of layer "{layer_name}" is '
+ValueError: Input 0 of layer "model" is incompatible with the layer: expected shape=(None, 15, 15, 4), found shape=(1, 0)
