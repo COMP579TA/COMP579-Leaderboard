@@ -2,6 +2,6 @@
 Traceback (most recent call last):
   File "evaluate_agents.py", line 192, in <module>
     agent = agent_module.Agent(env_specs)
-  File "XXX/COMP579_project1/GROUPS/GROUP_RandJB2/agent.py", line 12, in __init__
+  File "XXX/COMP579_project/GROUPS/GROUP_RandJB2/agent.py", line 12, in __init__
     torch.array([1.0])
 NameError: name 'torch' is not defined

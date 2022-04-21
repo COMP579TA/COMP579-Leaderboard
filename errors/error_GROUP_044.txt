@@ -10,6 +10,6 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "XXX/COMP579_project1/GROUPS/GROUP_044/agent.py", line 7, in <module>
+  File "XXX/COMP579_project/GROUPS/GROUP_044/agent.py", line 7, in <module>
     import core
 ModuleNotFoundError: No module named 'core'

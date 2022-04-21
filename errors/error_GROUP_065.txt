@@ -2,7 +2,7 @@
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project1/GROUPS/GROUP_065/agent.py", line 66, in load_weights
+  File "XXX/COMP579_project/GROUPS/GROUP_065/agent.py", line 66, in load_weights
     self.actor_lstm.load_state_dict(torch.load(lstm_weights))
   File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 699, in load
     with _open_file_like(f, 'rb') as opened_file:

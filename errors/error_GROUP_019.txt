@@ -2,11 +2,11 @@
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project1/GROUPS/GROUP_019/agent.py", line 254, in load_weights
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 254, in load_weights
     self.load_models(root_path)
-  File "XXX/COMP579_project1/GROUPS/GROUP_019/agent.py", line 276, in load_models
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 276, in load_models
     self.actor.load_checkpoint(root_path)
-  File "XXX/COMP579_project1/GROUPS/GROUP_019/agent.py", line 134, in load_checkpoint
+  File "XXX/COMP579_project/GROUPS/GROUP_019/agent.py", line 134, in load_checkpoint
     self.load_state_dict(T.load(os.path.join(root_path,self.checkpoint_file)))
   File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 699, in load
     with _open_file_like(f, 'rb') as opened_file:
