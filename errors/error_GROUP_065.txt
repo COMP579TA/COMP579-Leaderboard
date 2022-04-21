@@ -2,6 +2,6 @@
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_065/agent.py", line 66, in load_weights
+  File "XXX/COMP579_project/GROUPS/GROUP_065/agent.py", line 67, in load_weights
     actor_weights = os.path.join(root_path, 'actor.pth')
 NameError: name 'os' is not defined
