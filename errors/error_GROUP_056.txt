@@ -4,9 +4,9 @@ Traceback (most recent call last):
     evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
   File "evaluate_agents.py", line 103, in evaluate_sample_eff
     agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_056/agent.py", line 103, in update
+  File "XXX/COMP579_project1/GROUPS/GROUP_056/agent.py", line 103, in update
     self.train(self.memory, timestep, self.mini_batch_size)
-  File "XXX/COMP579_project/GROUPS/GROUP_056/agent.py", line 138, in train
+  File "XXX/COMP579_project1/GROUPS/GROUP_056/agent.py", line 138, in train
     policy_loss.backward()
   File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/_tensor.py", line 363, in backward
     torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
