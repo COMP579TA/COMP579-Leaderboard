@@ -1,11 +1,5 @@
 
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 213, in <module>
-    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
-  File "evaluate_agents.py", line 103, in evaluate_sample_eff
-    agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX/COMP579_project/GROUPS/GROUP_047/agent.py", line 198, in update
-    self.agent.update(batch_size)
-  File "XXX/COMP579_project/GROUPS/GROUP_047/agent.py", line 133, in update
-    next_action = (self.actor_target(next_obs_batch) + noise).clamp(-self.max_action, self.max_action)
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+  File "evaluate_agents.py", line 163, in <module>
+    raise Exception('There is no agent.py or env_info.txt!')
+Exception: There is no agent.py or env_info.txt!
