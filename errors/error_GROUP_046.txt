@@ -1,22 +1,19 @@
+
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 194, in <module>
-    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
-  File "evaluate_agents.py", line 65, in evaluate_perf
-    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
-  File "evaluate_agents.py", line 28, in evaluate_agent
-    action = agent.act(curr_obs, mode='eval')
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_046/agent.py", line 79, in act
-    action_values = self.qnetwork_local(**state)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_046/agent.py", line 284, in forward
-    out = self.ensemble_NN(nn_out)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
-    input = module(input)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_046/agent.py", line 330, in forward
-    bias = self.sigma_bias * self.epsilon_output + self.mu_bias
-RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+  File "evaluate_agents.py", line 213, in <module>
+    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
+  File "evaluate_agents.py", line 103, in evaluate_sample_eff
+    agent.update(curr_obs, action, reward, next_obs, done, timestep)
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 106, in update
+    self.learn(experiences, batch_weights, batch_idxes)
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 149, in learn
+    next_actions = torch.from_numpy(np.vstack([action for action in next_actions])).long().to(self.device)
+  File "<__array_function__ internals>", line 6, in vstack
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/numpy/core/shape_base.py", line 279, in vstack
+    arrs = atleast_2d(*tup)
+  File "<__array_function__ internals>", line 6, in atleast_2d
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/numpy/core/shape_base.py", line 121, in atleast_2d
+    ary = asanyarray(ary)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/_tensor.py", line 732, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
