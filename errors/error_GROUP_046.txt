@@ -1,18 +1,11 @@
+
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 213, in <module>
-    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
-  File "evaluate_agents.py", line 103, in evaluate_sample_eff
-    agent.update(curr_obs, action, reward, next_obs, done, timestep)
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_046/agent.py", line 106, in update
-    self.learn(experiences, batch_weights, batch_idxes)
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_046/agent.py", line 149, in learn
-    next_actions = torch.from_numpy(np.vstack([action for action in next_actions])).long().to(self.device)
-  File "<__array_function__ internals>", line 6, in vstack
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/numpy/core/shape_base.py", line 279, in vstack
-    arrs = atleast_2d(*tup)
-  File "<__array_function__ internals>", line 6, in atleast_2d
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/numpy/core/shape_base.py", line 121, in atleast_2d
-    ary = asanyarray(ary)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/_tensor.py", line 732, in __array__
-    return self.numpy()
-TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+  File "evaluate_agents.py", line 192, in <module>
+    agent = agent_module.Agent(env_specs)
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 34, in __init__
+    self.qnetwork_local = DQN(action_size=self.action_size, device=self.device).float().to(self.device)
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 262, in __init__
+    self.fc = NoisyLayer(3 * self.action_size, 5 * self.action_size, self.device)
+  File "XXX/COMP579_project/GROUPS/GROUP_046/agent.py", line 305, in __init__
+    self.mu_bias = nn.Parameter(torch.FloatTensor(output_features, device=self.device))
+RuntimeError: legacy constructor expects device type: cpu but device type: cuda was passed

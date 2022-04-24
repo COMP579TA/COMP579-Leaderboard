@@ -1,16 +1,7 @@
+
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_065/agent.py", line 66, in load_weights
-    self.actor_lstm.load_state_dict(torch.load(lstm_weights))
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
-    self.__class__.__name__, "\n\t".join(error_msgs)))
-RuntimeError: Error(s) in loading state_dict for LSTM:
-	size mismatch for weight_ih_l0: copying a param with shape torch.Size([1024, 930]) from checkpoint, the shape in current model is torch.Size([2048, 930]).
-	size mismatch for weight_hh_l0: copying a param with shape torch.Size([1024, 256]) from checkpoint, the shape in current model is torch.Size([2048, 512]).
-	size mismatch for bias_ih_l0: copying a param with shape torch.Size([1024]) from checkpoint, the shape in current model is torch.Size([2048]).
-	size mismatch for bias_hh_l0: copying a param with shape torch.Size([1024]) from checkpoint, the shape in current model is torch.Size([2048]).
-	size mismatch for weight_ih_l1: copying a param with shape torch.Size([1024, 256]) from checkpoint, the shape in current model is torch.Size([2048, 512]).
-	size mismatch for weight_hh_l1: copying a param with shape torch.Size([1024, 256]) from checkpoint, the shape in current model is torch.Size([2048, 512]).
-	size mismatch for bias_ih_l1: copying a param with shape torch.Size([1024]) from checkpoint, the shape in current model is torch.Size([2048]).
-	size mismatch for bias_hh_l1: copying a param with shape torch.Size([1024]) from checkpoint, the shape in current model is torch.Size([2048]).
+  File "XXX/COMP579_project/GROUPS/GROUP_065/agent.py", line 72, in load_weights
+    self.critic.load_state_dict(torch.load(policy_weights))
+NameError: name 'policy_weights' is not defined
