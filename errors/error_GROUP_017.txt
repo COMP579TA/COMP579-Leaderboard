@@ -1,13 +1,12 @@
-2022-04-23 17:01:20.464190: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-04-24 04:25:43.338762: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
-
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_017/agent.py", line 32, in load_weights
+  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_017/agent.py", line 32, in load_weights
     self.model.load_weights(root_path + "model_weights.pth")
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
     raise e.with_traceback(filtered_tb) from None
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/tensorflow/python/training/py_checkpoint_reader.py", line 35, in error_translator
+  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/tensorflow/python/training/py_checkpoint_reader.py", line 35, in error_translator
     raise errors_impl.NotFoundError(None, None, error_message)
 tensorflow.python.framework.errors_impl.NotFoundError: Unsuccessful TensorSliceReader constructor: Failed to find any matching files for ./GROUPS/GROUP_017/model_weights.pth
