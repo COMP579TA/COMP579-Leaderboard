@@ -1,0 +1,13 @@
+
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "XXX/COMP579_project/GROUPS/GROUP_008/agent.py", line 97, in load_weights
+    self.model = torch.load(root_path+"DQNmodel_400.pth")
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 1046, in _load
+    result = unpickler.load()
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 1039, in find_class
+    return super().find_class(mod_name, name)
+ModuleNotFoundError: No module named 'GROUP_008'
