@@ -1,7 +1,0 @@
-
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_065/agent.py", line 72, in load_weights
-    self.critic.load_state_dict(torch.load(policy_weights))
-NameError: name 'policy_weights' is not defined
