@@ -1,4 +1,4 @@
-This leaderboard was created with student repos pulled at 2022-04-26 02:20:55.140399 (Montreal time).
+This leaderboard was created with student repos pulled at 2022-04-26 02:59:12.144495 (Montreal time).
 
 
 # JellyBean Leaderboard
@@ -16,7 +16,7 @@ This leaderboard was created with student repos pulled at 2022-04-26 02:20:55.14
 |Rank      |Group     |Score     |
 |----------|----------|----------|
 |1      |GROUP_BaselineJB     |20.00     |
-|2      |GROUP_RandJB1     |5.66     |
+|2      |GROUP_RandJB1     |5.38     |
 
 
 # Mujoco Leaderboard
@@ -34,6 +34,6 @@ This leaderboard was created with student repos pulled at 2022-04-26 02:20:55.14
 |Rank      |Group     |Score     |
 |----------|----------|----------|
 |1      |GROUP_BaselineMJ     |25.00     |
-|2      |GROUP_RandMJ1     |3.57     |
+|2      |GROUP_RandMJ1     |3.51     |
 
 
