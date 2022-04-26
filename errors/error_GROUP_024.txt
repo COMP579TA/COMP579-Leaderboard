@@ -1,4 +1,7 @@
+
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 163, in <module>
-    raise Exception('There is no agent.py or env_info.txt!')
-Exception: There is no agent.py or env_info.txt!
+  File "evaluate_agents.py", line 192, in <module>
+    agent = agent_module.Agent(env_specs)
+  File "XXX/COMP579_project/GROUPS/GROUP_024/agent.py", line 42, in __init__
+    self.no = OUNoise(env_specs.action_space)
+AttributeError: 'dict' object has no attribute 'action_space'
