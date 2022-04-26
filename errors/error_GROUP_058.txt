@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-TypeError: load_weights() got an unexpected keyword argument 'root_path'
+  File "evaluate_agents.py", line 163, in <module>
+    raise Exception('There is no agent.py or env_info.txt!')
+Exception: There is no agent.py or env_info.txt!

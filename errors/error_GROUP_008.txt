@@ -1,12 +1,4 @@
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_008/agent.py", line 97, in load_weights
-    self.model = torch.load(root_path+"DQNmodel_400.pth")
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 712, in load
-    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 1046, in _load
-    result = unpickler.load()
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 1039, in find_class
-    return super().find_class(mod_name, name)
-ModuleNotFoundError: No module named 'GROUP_008'
+  File "evaluate_agents.py", line 163, in <module>
+    raise Exception('There is no agent.py or env_info.txt!')
+Exception: There is no agent.py or env_info.txt!

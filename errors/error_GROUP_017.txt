@@ -1,14 +1,4 @@
-2022-04-25 01:46:00.590781: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
-To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_017/agent.py", line 30, in load_weights
-    self.model.load_weights(root_path)
-  File "XXX4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_017/agent.py", line 163, in load_weights
-    self.feature_model.load_weights(path + "feature_model_weights.h5")
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 67, in error_handler
-    raise e.with_traceback(filtered_tb) from None
-  File "XXX4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/keras/saving/hdf5_format.py", line 720, in load_weights_from_hdf5_group
-    f'Layer count mismatch when loading weights from file. '
-ValueError: Layer count mismatch when loading weights from file. Model expected 5 layers, found 4 saved layers.
+  File "evaluate_agents.py", line 163, in <module>
+    raise Exception('There is no agent.py or env_info.txt!')
+Exception: There is no agent.py or env_info.txt!
