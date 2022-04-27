@@ -10,6 +10,6 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "XXX/COMP579_project/GROUPS/GROUP_000/agent.py", line 6, in <module>
-    from GROUP_000 import Agent
-ModuleNotFoundError: No module named 'GROUP_000'
+  File "XXX/COMP579_project/GROUPS/GROUP_072/agent.py", line 10, in <module>
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+NameError: name 'torch' is not defined
