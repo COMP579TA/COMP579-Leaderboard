@@ -1,7 +1,7 @@
 This leaderboard was created with student repos pulled at 2022-04-27 11:53:32.397774 (Montreal time).
 
 
- If you see no error file and if you are not on the leaderboard, your code evaluation takes more than 12hs. Also if you are seeing errors that you have already fixed on the fake leaderboard, please note the **last pull** time above.
+If you are seeing errors that you have already fixed on the fake leaderboard, please note the **last pull** time above.
 
 
 
