@@ -1,4 +1,4 @@
-This leaderboard was created with student repos pulled at 2022-04-26 18:48:01.106144 (Montreal time).
+This leaderboard was created with student repos pulled at 2022-04-26 18:48:01.106144 UTC.
 
 
 # JellyBean Leaderboard
