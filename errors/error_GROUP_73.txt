@@ -1,10 +1,7 @@
+
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 193, in <module>
-    agent.load_weights(root_path=path) 
-  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_73/agent.py", line 193, in load_weights
-    self.qnetwork_local.load_state_dict(torch.load(root_path+'weights.pth'))
-  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 713, in load
-    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
-  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 920, in _legacy_load
-    magic_number = pickle_module.load(f, **pickle_load_args)
-_pickle.UnpicklingError: invalid load key, 'v'.
+  File "evaluate_agents.py", line 213, in <module>
+    evaluate_sample_eff(agent, env, env_eval, seeds, total_timesteps, evaluation_freq, n_episodes_to_evaluate, save_dir)
+  File "evaluate_agents.py", line 103, in evaluate_sample_eff
+    agent.update(curr_obs, action, reward, next_obs, done, timestep)
+TypeError: update() takes 6 positional arguments but 7 were given

@@ -1,14 +1,5 @@
+
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 194, in <module>
-    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
-  File "evaluate_agents.py", line 65, in evaluate_perf
-    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
-  File "evaluate_agents.py", line 28, in evaluate_agent
-    action = agent.act(curr_obs, mode='eval')
-  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_068/agent.py", line 183, in act
-    action = self.actor(state).cpu().data.numpy().flatten()
-  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 201, in _forward_unimplemented
-    raise NotImplementedError
-NotImplementedError
+  File "evaluate_agents.py", line 163, in <module>
+    raise Exception('There is no agent.py or env_info.txt!')
+Exception: There is no agent.py or env_info.txt!
