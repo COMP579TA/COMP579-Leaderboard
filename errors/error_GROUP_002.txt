@@ -1,23 +1,14 @@
-
 Traceback (most recent call last):
-  File "evaluate_agents.py", line 194, in <module>
-    evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
-  File "evaluate_agents.py", line 65, in evaluate_perf
-    mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
-  File "evaluate_agents.py", line 28, in evaluate_agent
-    action = agent.act(curr_obs, mode='eval')
-  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 54, in act
-    action_values = self.net(self.state, model="online")
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX/COMP579_project/GROUPS/GROUP_002/agent.py", line 172, in forward
-    return self.online(input)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
-    input = module(input)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
-    return forward_call(*input, **kwargs)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 103, in forward
-    return F.linear(input, self.weight, self.bias)
-TypeError: linear(): argument 'input' (position 1) must be Tensor, not numpy.ndarray
+  File "evaluate_agents.py", line 171, in <module>
+    agent_module = importlib.import_module('GROUPS.'+args.group+'.agent')
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_002/agent.py", line 1, in <module>
+    from functools import cache
+ImportError: cannot import name 'cache' from 'functools' (/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/functools.py)

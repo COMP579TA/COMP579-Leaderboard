@@ -1,11 +1,10 @@
-
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_73/agent.py", line 193, in load_weights
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_73/agent.py", line 193, in load_weights
     self.qnetwork_local.load_state_dict(torch.load(root_path+'weights.pth'))
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 713, in load
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 713, in load
     return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 920, in _legacy_load
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/serialization.py", line 920, in _legacy_load
     magic_number = pickle_module.load(f, **pickle_load_args)
 _pickle.UnpicklingError: invalid load key, 'v'.

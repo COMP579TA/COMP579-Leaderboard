@@ -1,4 +1,3 @@
-
 Traceback (most recent call last):
   File "evaluate_agents.py", line 194, in <module>
     evaluate_perf(agent, env, seeds, n_episodes_to_evaluate, save_dir)  
@@ -6,20 +5,20 @@ Traceback (most recent call last):
     mean_acc_rewards = evaluate_agent(agent, env, n_episodes_to_evaluate)
   File "evaluate_agents.py", line 28, in evaluate_agent
     action = agent.act(curr_obs, mode='eval')
-  File "XXX/COMP579_project/GROUPS/GROUP_003/agent.py", line 98, in act
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_003/agent.py", line 98, in act
     p = self.model(curr_obs[0],curr_obs[1])
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
     return forward_call(*input, **kwargs)
-  File "XXX/COMP579_project/GROUPS/GROUP_003/agent.py", line 38, in forward
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_003/agent.py", line 38, in forward
     x = self.conv(x)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
     return forward_call(*input, **kwargs)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/container.py", line 141, in forward
     input = module(input)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
     return forward_call(*input, **kwargs)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 447, in forward
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 447, in forward
     return self._conv_forward(input, self.weight, self.bias)
-  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 444, in _conv_forward
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 444, in _conv_forward
     self.padding, self.dilation, self.groups)
 RuntimeError: Expected 3D (unbatched) or 4D (batched) input to conv2d, but got input of size: [1, 3]
