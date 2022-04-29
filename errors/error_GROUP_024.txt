@@ -1,7 +1,6 @@
-
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "XXX/COMP579_project/GROUPS/GROUP_024/agent.py", line 64, in load_weights
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_024/agent.py", line 64, in load_weights
     self.actor.load_state_dict(torch.load(root_path))
 NameError: name 'torch' is not defined
