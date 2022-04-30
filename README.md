@@ -1,4 +1,4 @@
-This leaderboard was created with student repos pulled at 2022-04-28 15:58:44.944954 UTC.
+This leaderboard was created with student repos pulled at 2022-04-28 15:35:56.598343 (Montreal time).
 
 
 # JellyBean Leaderboard
@@ -14,35 +14,35 @@ This leaderboard was created with student repos pulled at 2022-04-28 15:58:44.94
 |5      |GROUP_046     |719.26     |
 |6      |GROUP_003     |696.56     |
 |7      |GROUP_008     |652.34     |
-|8      |GROUP_005     |591.61     |
-|9      |GROUP_001     |529.88     |
-|10      |GROUP_060     |496.00     |
-|11      |GROUP_065     |152.26     |
-|12      |GROUP_BaselineJB     |50.00     |
-|13      |GROUP_000     |38.57     |
-|14      |GROUP_017     |30.54     |
-|15      |GROUP_RandJB1     |13.58     |
+|8      |GROUP_001     |529.88     |
+|9      |GROUP_060     |496.00     |
+|10      |GROUP_065     |152.26     |
+|11      |GROUP_BaselineJB     |50.00     |
+|12      |GROUP_017     |41.88     |
+|13      |GROUP_000     |39.40     |
+|14      |GROUP_064     |25.18     |
+|15      |GROUP_RandJB1     |14.75     |
 
 
 **Sample Efficiency Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_055     |306.82     |
-|2      |GROUP_011     |278.31     |
-|3      |GROUP_025     |234.37     |
-|4      |GROUP_046     |193.39     |
-|5      |GROUP_060     |172.73     |
-|6      |GROUP_005     |152.34     |
-|7      |GROUP_008     |151.12     |
-|8      |GROUP_003     |129.37     |
-|9      |GROUP_001     |110.39     |
-|10      |GROUP_73     |46.51     |
-|11      |GROUP_BaselineJB     |20.00     |
-|12      |GROUP_000     |12.43     |
-|13      |GROUP_065     |6.08     |
-|14      |GROUP_RandJB1     |5.23     |
-|15      |GROUP_017     |2.72     |
+|1      |GROUP_011     |251.21     |
+|2      |GROUP_025     |236.41     |
+|3      |GROUP_046     |216.82     |
+|4      |GROUP_060     |176.03     |
+|5      |GROUP_008     |149.07     |
+|6      |GROUP_003     |120.95     |
+|7      |GROUP_001     |109.12     |
+|8      |GROUP_73     |77.39     |
+|9      |GROUP_055     |61.49     |
+|10      |GROUP_BaselineJB     |20.00     |
+|11      |GROUP_000     |13.33     |
+|12      |GROUP_065     |6.20     |
+|13      |GROUP_064     |5.09     |
+|14      |GROUP_017     |4.60     |
+|15      |GROUP_RandJB1     |4.42     |
 
 
 # Mujoco Leaderboard
@@ -51,75 +51,75 @@ This leaderboard was created with student repos pulled at 2022-04-28 15:58:44.94
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_042     |4490.30     |
-|2      |GROUP_052     |4268.02     |
-|3      |GROUP_004     |4108.89     |
-|4      |GROUP_050     |3988.97     |
-|5      |GROUP_044     |3929.05     |
-|6      |GROUP_051     |3887.99     |
-|7      |GROUP_067     |3836.61     |
-|8      |GROUP_070     |3791.55     |
-|9      |GROUP_062     |3734.45     |
-|10      |GROUP_054     |3709.61     |
-|11      |GROUP_013     |3695.66     |
-|12      |GROUP_030     |3623.69     |
-|13      |GROUP_057     |3520.99     |
-|14      |GROUP_010     |3453.16     |
-|15      |GROUP_047     |3395.82     |
-|16      |GROUP_045     |3343.74     |
-|17      |GROUP_007     |3299.37     |
-|18      |GROUP_022     |3288.12     |
-|19      |GROUP_053     |3259.24     |
-|20      |GROUP_056     |3255.49     |
-|21      |GROUP_072     |3097.75     |
-|22      |GROUP_019     |3097.41     |
-|23      |GROUP_059     |2368.65     |
-|24      |GROUP_66     |2247.38     |
-|25      |GROUP_048     |1988.37     |
-|26      |GROUP_063     |1298.80     |
-|27      |GROUP_DEMO     |1233.34     |
-|28      |GROUP_058     |1042.60     |
-|29      |GROUP_BaselineMJ     |1000.00     |
-|30      |GROUP_061     |17.92     |
-|31      |GROUP_RandMJ1     |17.92     |
-|32      |GROUP_069     |17.92     |
+|1      |GROUP_042     |4485.27     |
+|2      |GROUP_052     |4263.10     |
+|3      |GROUP_004     |4111.04     |
+|4      |GROUP_050     |3955.80     |
+|5      |GROUP_044     |3908.77     |
+|6      |GROUP_051     |3880.04     |
+|7      |GROUP_067     |3851.18     |
+|8      |GROUP_070     |3790.31     |
+|9      |GROUP_030     |3784.46     |
+|10      |GROUP_062     |3733.17     |
+|11      |GROUP_054     |3708.37     |
+|12      |GROUP_013     |3696.60     |
+|13      |GROUP_057     |3520.77     |
+|14      |GROUP_010     |3451.73     |
+|15      |GROUP_047     |3393.21     |
+|16      |GROUP_022     |3316.95     |
+|17      |GROUP_007     |3300.76     |
+|18      |GROUP_053     |3259.58     |
+|19      |GROUP_045     |3220.68     |
+|20      |GROUP_056     |3148.38     |
+|21      |GROUP_019     |3108.25     |
+|22      |GROUP_072     |3095.81     |
+|23      |GROUP_66     |2294.89     |
+|24      |GROUP_048     |2039.79     |
+|25      |GROUP_009     |1607.58     |
+|26      |GROUP_DEMO     |1299.40     |
+|27      |GROUP_063     |1295.61     |
+|28      |GROUP_BaselineMJ     |1000.00     |
+|29      |GROUP_058     |958.01     |
+|30      |GROUP_069     |17.32     |
+|31      |GROUP_061     |17.32     |
+|32      |GROUP_RandMJ1     |17.32     |
 
 
 **Sample Efficiency Leaderboard**
 
 |Rank      |Group     |Score     |
 |----------|----------|----------|
-|1      |GROUP_042     |545.58     |
-|2      |GROUP_013     |510.72     |
-|3      |GROUP_070     |463.69     |
-|4      |GROUP_004     |406.70     |
-|5      |GROUP_050     |404.38     |
-|6      |GROUP_044     |376.63     |
-|7      |GROUP_062     |375.08     |
-|8      |GROUP_019     |339.09     |
-|9      |GROUP_067     |332.81     |
-|10      |GROUP_054     |316.82     |
-|11      |GROUP_052     |300.34     |
-|12      |GROUP_010     |296.18     |
-|13      |GROUP_053     |287.97     |
-|14      |GROUP_022     |263.48     |
-|15      |GROUP_051     |262.20     |
-|16      |GROUP_056     |222.37     |
-|17      |GROUP_063     |206.98     |
-|18      |GROUP_048     |201.01     |
-|19      |GROUP_057     |178.54     |
-|20      |GROUP_66     |163.21     |
-|21      |GROUP_045     |160.03     |
-|22      |GROUP_072     |157.62     |
-|23      |GROUP_DEMO     |106.59     |
-|24      |GROUP_007     |97.65     |
-|25      |GROUP_059     |56.56     |
-|26      |GROUP_047     |55.59     |
-|27      |GROUP_BaselineMJ     |25.00     |
-|28      |GROUP_030     |20.79     |
-|29      |GROUP_069     |13.03     |
-|30      |GROUP_058     |7.82     |
-|31      |GROUP_061     |3.57     |
-|32      |GROUP_RandMJ1     |3.57     |
+|1      |GROUP_042     |576.63     |
+|2      |GROUP_030     |498.72     |
+|3      |GROUP_013     |489.17     |
+|4      |GROUP_044     |424.45     |
+|5      |GROUP_051     |419.38     |
+|6      |GROUP_070     |407.45     |
+|7      |GROUP_050     |388.67     |
+|8      |GROUP_062     |350.48     |
+|9      |GROUP_056     |298.52     |
+|10      |GROUP_052     |276.76     |
+|11      |GROUP_004     |256.36     |
+|12      |GROUP_053     |248.22     |
+|13      |GROUP_054     |242.04     |
+|14      |GROUP_047     |196.46     |
+|15      |GROUP_057     |179.69     |
+|16      |GROUP_045     |179.27     |
+|17      |GROUP_019     |175.31     |
+|18      |GROUP_067     |168.43     |
+|19      |GROUP_048     |154.39     |
+|20      |GROUP_009     |145.22     |
+|21      |GROUP_072     |139.33     |
+|22      |GROUP_022     |123.37     |
+|23      |GROUP_063     |120.04     |
+|24      |GROUP_007     |113.90     |
+|25      |GROUP_DEMO     |97.07     |
+|26      |GROUP_010     |62.31     |
+|27      |GROUP_058     |56.65     |
+|28      |GROUP_BaselineMJ     |25.00     |
+|29      |GROUP_069     |10.21     |
+|30      |GROUP_061     |3.77     |
+|31      |GROUP_RandMJ1     |3.71     |
+|32      |GROUP_66     |1.14     |
 
 

@@ -1,6 +1,13 @@
+
 Traceback (most recent call last):
   File "evaluate_agents.py", line 193, in <module>
     agent.load_weights(root_path=path) 
-  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_024/agent.py", line 64, in load_weights
+  File "XXX/COMP579_project/GROUPS/GROUP_024/agent.py", line 66, in load_weights
     self.actor.load_state_dict(torch.load(root_path))
-NameError: name 'torch' is not defined
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "XXX/.conda/envs/COMP579_project/lib/python3.7/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+IsADirectoryError: [Errno 21] Is a directory: './GROUPS/GROUP_024/'
