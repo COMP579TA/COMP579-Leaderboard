@@ -1,1 +1,9 @@
-
+Traceback (most recent call last):
+  File "evaluate_agents.py", line 193, in <module>
+    agent.load_weights(root_path=path) 
+  File "/home/ml/users/nanand4/COMP579-Leaderboard-Backend-New/GROUPS/GROUP_025/agent.py", line 719, in load_weights
+    self.dqn.load_state_dict(torch.load(path))
+  File "/home/ml/users/nanand4/anaconda3/envs/leaderboard_env/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1498, in load_state_dict
+    self.__class__.__name__, "\n\t".join(error_msgs)))
+RuntimeError: Error(s) in loading state_dict for Network:
+	size mismatch for feature_layer.0.weight: copying a param with shape torch.Size([2048, 970]) from checkpoint, the shape in current model is torch.Size([2048, 935]).

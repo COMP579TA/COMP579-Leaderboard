@@ -1,5 +1,0 @@
-
-Traceback (most recent call last):
-  File "evaluate_agents.py", line 192, in <module>
-    agent = agent_module.Agent(env_specs)
-TypeError: __init__() missing 1 required positional argument: 'env_specs'
